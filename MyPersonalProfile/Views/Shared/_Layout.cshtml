@@ -20,12 +20,12 @@
                 </button>
                 <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
                     <div class="dropdown">
-                        <button class="dropbtn">Profile</button>
+                        <button class="dropbtn" style="font-size:large">Profile <b>&#8801;</b></button>
                         <div class="dropdown-content">
                             <a class="pd" asp-controller="Home" asp-action="PersonalDetails">Personal Details</a>
-                            <a href="#">Educational Qualifications</a>
-                            <a href="#">Work Experience</a>
-                            <a href="#">Onsite/Client Visits</a>
+                            <a class="pd" asp-controller="Home" asp-action="EducationalQualifications">Educational Qualifications</a>
+                            <a class="pd" asp-controller="Home" asp-action="WorkExperience">Work Experience</a>
+                            <a class="pd" asp-controller="Home" asp-action="ClientVisits">Onsite/Client Visits</a>
                         </div>
                     </div>
                 </div>

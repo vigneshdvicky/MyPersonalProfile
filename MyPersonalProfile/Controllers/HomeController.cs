@@ -33,6 +33,24 @@ namespace MyPersonalProfile.Controllers
             return View();
         }
 
+        public IActionResult WorkExperience()
+        {
+            return View();
+        }
+
+
+        public IActionResult EducationalQualifications()
+        {
+            return View();
+        }
+
+
+        public IActionResult ClientVisits()
+        {
+            return View();
+        }
+
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
