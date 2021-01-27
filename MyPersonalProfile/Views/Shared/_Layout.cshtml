@@ -19,16 +19,25 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
-                    <div class="dropdown">
-                        <button class="dropbtn" style="font-size:large">Profile <b>&#8801;</b></button>
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" onclick="location.href='https://www.fb.com/vickyfz27';">Facebook</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" onclick="location.href='https://www.linkedin.com/in/vignesh-ramachandran27/';">LinkedIn</a>
+                        </li>
+                    </ul>
+                </div>
+                    
+                <div class="dropdown" style="float:right">
+                    <button class="dropbtn" style="font-size:large">Profile <b>&#8801;</b></button>
                         <div class="dropdown-content">
                             <a class="pd" asp-controller="Home" asp-action="PersonalDetails">Personal Details</a>
                             <a class="pd" asp-controller="Home" asp-action="EducationalQualifications">Educational Qualifications</a>
                             <a class="pd" asp-controller="Home" asp-action="WorkExperience">Work Experience</a>
                             <a class="pd" asp-controller="Home" asp-action="ClientVisits">Onsite/Client Visits</a>
                         </div>
-                    </div>
-                </div>
+                 </div>
             </div>
         </nav>
     </header>
